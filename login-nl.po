@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: directadmin-evolution-login-nl\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Yavuz Aydin - uHost <info@uhost.nl>\n"
+"Language-Team: uHost\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"X-Generator: Poedit 2.1.1\n"
+
+#: src/js/login/Login.vue:30
+msgid "← Back to the login page"
+msgstr "← Terug naar de login pagina"
+
+#: src/js/login/components/two-step-auth.vue:29
+msgid "Authenticate"
+msgstr "Autoriseren"
+
+#: src/js/login/Login.vue:22
+msgid "Click Here"
+msgstr "Klik hier"
+
+#: src/js/login/components/remind-password-auth/send-code.vue:12
+msgid "Code from E-mail"
+msgstr "Bevestigingscode van e-mail"
+
+#: src/js/login/components/login-datetime.vue:3
+msgid "Computer or server time out of sync by %{ hours } hours."
+msgstr "Computer of server tijd niet synchroon met %{ hours } uur."
+
+#: src/js/login/components/remind-password-auth/send-message.vue:2
+msgid "Enter your Username and a confirmation link will be sent to your email account."
+msgstr "Vul uw gebruikersnaam in en een bevestigingslink zal worden verstuurd naar uw e-mailadres."
+
+#: src/js/login/Login.vue:17
+msgid "Forgot Password?"
+msgstr "Wachtwoord vergeten?"
+
+#: src/js/login/components/standard-auth.vue:20
+msgid "Hmm, login details do not seem to be correct. Please try again."
+msgstr "Hmm, logingegevens lijken niet correct te zijn. Probeer het opnieuw."
+
+#: src/js/login/components/language-selector.vue:7
+msgid "Language"
+msgstr "Taal"
+
+#: src/js/login/components/remind-password-auth/send-code.vue:3
+msgid "Log In using your username and code from E-mail"
+msgstr "Log in met uw gebruikersnaam en bevestigingscode die u per e-mail heeft ontvangen"
+
+#: src/js/login/components/auth-successful-message.vue:2
+msgid "Logged in..."
+msgstr "Ingelogd..."
+
+#: src/js/login/components/login-header.vue:6
+msgid "Manage your domains, databases & other server info."
+msgstr "Beheer uw domeinen, databases & andere server informatie."
+
+#: src/js/login/components/standard-auth.vue:11
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: src/js/login/components/standard-auth.vue:3
+msgid "Please enter username"
+msgstr "Voer a.u.b. uw gebruikersnaam in"
+
+#: src/js/login/components/remind-password-auth/send-code.vue:26
+msgid "Request New Password"
+msgstr "Nieuw wachtwoord aanvragen"
+
+#: src/js/login/components/remind-password-auth/send-message.vue:14
+msgid "Send me a Link"
+msgstr "Stuur mij een link"
+
+#: src/js/login/components/standard-auth.vue:26
+msgid "Sign in to Account"
+msgstr "Aanmelden bij account"
+
+#: src/js/login/components/login-header.vue:3
+msgid "Start DirectAdmin"
+msgstr "Start DirectAdmin"
+
+#: src/js/login/components/security-question-auth.vue:13
+msgid "Submit Answer"
+msgstr "Verstuur antwoord"
+
+#: src/js/login/components/two-step-auth.vue:16
+msgid "Trust this device for %{ days } days"
+msgstr "Vertrouw dit apparaat voor %{ days } dagen"
+
+#: src/js/login/components/two-step-auth.vue:3
+msgid "Two Step Authentication"
+msgstr "Tweestaps authenticatie"
+
+#: src/js/login/components/remind-password-auth/send-code.vue:6
+#: src/js/login/components/remind-password-auth/send-message.vue:5
+msgid "Username"
+msgstr "Gebruikersnaam"
