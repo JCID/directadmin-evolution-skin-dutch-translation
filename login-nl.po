@@ -14,11 +14,11 @@ msgstr ""
 
 #: src/js/login/Login.vue:30
 msgid "← Back to the login page"
-msgstr "← Terug naar de login pagina"
+msgstr "← Terug naar de loginpagina"
 
 #: src/js/login/components/two-step-auth.vue:29
 msgid "Authenticate"
-msgstr "Autoriseren"
+msgstr "Authoriseren"
 
 #: src/js/login/Login.vue:22
 msgid "Click Here"
@@ -30,7 +30,7 @@ msgstr "Bevestigingscode van e-mail"
 
 #: src/js/login/components/login-datetime.vue:3
 msgid "Computer or server time out of sync by %{ hours } hours."
-msgstr "Computer of server tijd niet synchroon met %{ hours } uur."
+msgstr "Computer- of servertijd loopt %{ hours } uur voor/achter."
 
 #: src/js/login/components/remind-password-auth/send-message.vue:2
 msgid "Enter your Username and a confirmation link will be sent to your email account."
@@ -58,7 +58,7 @@ msgstr "Ingelogd..."
 
 #: src/js/login/components/login-header.vue:6
 msgid "Manage your domains, databases & other server info."
-msgstr "Beheer uw domeinen, databases & andere server informatie."
+msgstr "Beheer uw domeinen, databases & andere serverinformatie."
 
 #: src/js/login/components/standard-auth.vue:11
 msgid "Password"
