@@ -94,7 +94,7 @@ msgstr "Vertrouw dit apparaat voor %{ days } dagen"
 
 #: src/js/login/components/two-step-auth.vue:3
 msgid "Two Step Authentication"
-msgstr "Tweetraps authenticatie"
+msgstr "Tweestaps authenticatie"
 
 #: src/js/login/components/remind-password-auth/send-code.vue:6
 #: src/js/login/components/remind-password-auth/send-message.vue:5
