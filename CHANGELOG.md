@@ -1,6 +1,7 @@
 # 2.0.0
 
 - De `README.md` aangevuld met de benodigde stappen om de Nederlandse versie te kunnen actualiseren
+- De vertalingen voor `nl.po` en `login-nl.po` geactualiseerd met DirectAdmin versie `1.59.5`
 
 # 1.1.0
 
