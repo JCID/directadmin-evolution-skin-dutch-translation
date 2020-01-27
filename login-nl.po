@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Project-Id-Version: directadmin-evolution-login-nl\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Yavuz Aydin - uHost <info@uhost.nl>\n"
+"Last-Translator: Jeffrey Cafferata <jeffrey@jcid.nl>\n"
 "Language-Team: uHost\n"
-"MIME-Version: 1.0\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: nl\n"
-"X-Generator: Poedit 2.1.1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.4\n"
 
-#: src/js/login/Login.vue:30
+#: src/js/login/Login.vue:31
 msgid "← Back to the login page"
 msgstr "← Terug naar de loginpagina"
 
@@ -21,10 +21,10 @@ msgid "Authenticate"
 msgstr "Authoriseren"
 
 #: src/js/login/Login.vue:22
-msgid "Click Here"
-msgstr "Klik hier"
+msgid "Click here"
+msgstr ""
 
-#: src/js/login/components/remind-password-auth/send-code.vue:12
+#: src/js/login/components/send-code.vue:12
 msgid "Code from E-mail"
 msgstr "Bevestigingscode van e-mail"
 
@@ -32,15 +32,23 @@ msgstr "Bevestigingscode van e-mail"
 msgid "Computer or server time out of sync by %{ hours } hours."
 msgstr "Computer- of servertijd loopt %{ hours } uur voor/achter."
 
-#: src/js/login/components/remind-password-auth/send-message.vue:2
-msgid "Enter your Username and a confirmation link will be sent to your email account."
-msgstr "Vul uw gebruikersnaam in en een bevestigingslink zal worden verstuurd naar uw e-mailadres."
+#: src/js/login/components/send-message.vue:2
+msgid ""
+"Enter your Username and a confirmation link will be sent to your email "
+"account."
+msgstr ""
+"Vul uw gebruikersnaam in en een bevestigingslink zal worden verstuurd naar "
+"uw e-mailadres."
 
 #: src/js/login/Login.vue:17
 msgid "Forgot Password?"
 msgstr "Wachtwoord vergeten?"
 
-#: src/js/login/components/standard-auth.vue:20
+#: src/js/login/components/login-datetime.vue:12
+msgid "format:datetime"
+msgstr ""
+
+#: src/js/login/components/standard-auth.vue:27
 msgid "Hmm, login details do not seem to be correct. Please try again."
 msgstr "Hmm, logingegevens lijken niet correct te zijn. Probeer het opnieuw."
 
@@ -48,35 +56,37 @@ msgstr "Hmm, logingegevens lijken niet correct te zijn. Probeer het opnieuw."
 msgid "Language"
 msgstr "Taal"
 
-#: src/js/login/components/remind-password-auth/send-code.vue:3
+#: src/js/login/components/send-code.vue:3
 msgid "Log In using your username and code from E-mail"
-msgstr "Log in met uw gebruikersnaam en bevestigingscode die u per e-mail heeft ontvangen"
+msgstr ""
+"Log in met uw gebruikersnaam en bevestigingscode die u per e-mail heeft "
+"ontvangen"
 
-#: src/js/login/components/auth-successful-message.vue:2
-msgid "Logged in..."
-msgstr "Ingelogd..."
+#: src/js/login/components/loader.vue:20
+msgid "Logged in.."
+msgstr ""
 
 #: src/js/login/components/login-header.vue:6
 msgid "Manage your domains, databases & other server info."
 msgstr "Beheer uw domeinen, databases & andere serverinformatie."
 
-#: src/js/login/components/standard-auth.vue:11
+#: src/js/login/components/standard-auth.vue:17
 msgid "Password"
 msgstr "Wachtwoord"
 
-#: src/js/login/components/standard-auth.vue:3
+#: src/js/login/components/standard-auth.vue:9
 msgid "Please enter username"
 msgstr "Voer a.u.b. uw gebruikersnaam in"
 
-#: src/js/login/components/remind-password-auth/send-code.vue:26
+#: src/js/login/components/send-code.vue:26
 msgid "Request New Password"
 msgstr "Nieuw wachtwoord aanvragen"
 
-#: src/js/login/components/remind-password-auth/send-message.vue:14
+#: src/js/login/components/send-message.vue:14
 msgid "Send me a Link"
 msgstr "Stuur mij een link"
 
-#: src/js/login/components/standard-auth.vue:26
+#: src/js/login/components/standard-auth.vue:39
 msgid "Sign in to Account"
 msgstr "Aanmelden bij account"
 
@@ -96,7 +106,13 @@ msgstr "Vertrouw dit apparaat voor %{ days } dagen"
 msgid "Two Step Authentication"
 msgstr "Tweestaps authenticatie"
 
-#: src/js/login/components/remind-password-auth/send-code.vue:6
-#: src/js/login/components/remind-password-auth/send-message.vue:5
+#: src/js/login/components/send-code.vue:6
+#: src/js/login/components/send-message.vue:5
 msgid "Username"
 msgstr "Gebruikersnaam"
+
+#~ msgid "Click Here"
+#~ msgstr "Klik hier"
+
+#~ msgid "Logged in..."
+#~ msgstr "Ingelogd..."

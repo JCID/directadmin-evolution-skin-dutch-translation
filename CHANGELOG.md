@@ -1,4 +1,9 @@
-# 1.1 versie
+# 2.0.0
+
+- De `README.md` aangevuld met de benodigde stappen om de Nederlandse versie te kunnen actualiseren
+- De vertalingen voor `nl.po` en `login-nl.po` geactualiseerd met DirectAdmin versie `1.59.5`
+
+# 1.1.0
 
 Aanpassingen van benamingen en bug fix.
 
@@ -15,6 +20,6 @@ Aanpassingen van benamingen en bug fix.
 - Waar wit u de spam naartoe laten gaan? -> Waar wilt u de spam naartoe laten gaan?
 - How should the spam be delivered? -> Hoe moet de spam worden afgeleverd?
 
-# 1.0 versie 
+# 1.0.0 
 
 De vertaling is gemaakt in combinatie met een robot. Fouten zijn zo goed mogelijk aangepast.
