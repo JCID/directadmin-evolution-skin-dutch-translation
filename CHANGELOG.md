@@ -1,3 +1,7 @@
+# 2.0.1
+
+- Verschillende vertalingen toegevoegd door @aaron1232 [#3](https://github.com/JCID/directadmin-evolution-skin-dutch-translation/pull/3)
+
 # 2.0.0
 
 - De `README.md` aangevuld met de benodigde stappen om de Nederlandse versie te kunnen actualiseren

@@ -8,16 +8,16 @@ Copyright |. De vertaling is in samenwerking met DirectAdmin uitgevoerd. Leden m
 |E-mail|[info@snelwebcenter.nl](mailto:info@snelwebcenter.nl)|
 |Versie|2.0 (vertaling) (27-01-2020)|
 
-# Installatie van versie `v2.0.0`
+# Installatie van versie `v2.0.1`
 
 ```bash
-curl -o /usr/local/directadmin/data/skins/evolution/lang/nl.po https://raw.githubusercontent.com/JCID/directadmin-evolution-skin-dutch-translation/v2.0.0/nl.po
+curl -o /usr/local/directadmin/data/skins/evolution/lang/nl.po https://raw.githubusercontent.com/JCID/directadmin-evolution-skin-dutch-translation/v2.0.1/nl.po
 chown diradmin:diradmin /usr/local/directadmin/data/skins/evolution/lang/nl.po
 chmod 0755 /usr/local/directadmin/data/skins/evolution/lang/nl.po
 ```
 
 ```bash
-curl -o /usr/local/directadmin/data/skins/evolution/lang/login-nl.po https://raw.githubusercontent.com/JCID/directadmin-evolution-skin-dutch-translation/v2.0.0/login-nl.po
+curl -o /usr/local/directadmin/data/skins/evolution/lang/login-nl.po https://raw.githubusercontent.com/JCID/directadmin-evolution-skin-dutch-translation/v2.0.1/login-nl.po
 chown diradmin:diradmin /usr/local/directadmin/data/skins/evolution/lang/login-nl.po
 chmod 0755 /usr/local/directadmin/data/skins/evolution/lang/login-nl.po
 ```
