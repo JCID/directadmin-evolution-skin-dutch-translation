@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: directadmin-evolution-login-nl\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Jeffrey Cafferata <jeffrey@jcid.nl>\n"
+"Last-Translator: Aaron Tytgat <aaron@qual-it.eu>\n"
 "Language-Team: uHost\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: src/js/login/Login.vue:31
 msgid "← Back to the login page"
@@ -22,7 +22,7 @@ msgstr "Authoriseren"
 
 #: src/js/login/Login.vue:22
 msgid "Click here"
-msgstr ""
+msgstr "Klik hier"
 
 #: src/js/login/components/send-code.vue:12
 msgid "Code from E-mail"
@@ -46,7 +46,7 @@ msgstr "Wachtwoord vergeten?"
 
 #: src/js/login/components/login-datetime.vue:12
 msgid "format:datetime"
-msgstr ""
+msgstr "format:datetime"
 
 #: src/js/login/components/standard-auth.vue:27
 msgid "Hmm, login details do not seem to be correct. Please try again."
@@ -64,7 +64,7 @@ msgstr ""
 
 #: src/js/login/components/loader.vue:20
 msgid "Logged in.."
-msgstr ""
+msgstr "Ingelogd.."
 
 #: src/js/login/components/login-header.vue:6
 msgid "Manage your domains, databases & other server info."
