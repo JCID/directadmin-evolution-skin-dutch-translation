@@ -3,13 +3,13 @@ msgstr ""
 "Project-Id-Version: directadmin-evolution-nl\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Jeffrey Cafferata <jeffrey@jcid.nl>\n"
-"Language-Team: Snelwebcenter\n"
+"Last-Translator: Aaron Tytgat <aaron@qual-it.eu>\n"
+"Language-Team: Snelwebcenter & Qual-IT.eu\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 1.8.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/js/pages/user/ftp-accounts/create.vue:182
@@ -87,7 +87,7 @@ msgstr "{{bandwidth.limit | humanReadableSize}}"
 #: src/js/components/local/main-menu/plugged-menu-category.vue:49
 #: src/js/components/local/main-menu/plugged-menu-category.vue:89
 msgid "{{category.name}}"
-msgstr ""
+msgstr "{{category.name}}"
 
 #: src/js/pages/user/dns/mx-records.vue:64
 msgid ""
@@ -226,11 +226,11 @@ msgstr "%{name}-digest"
 
 #: src/js/components/local/layouts/sidebar/aside.vue:25
 msgid "© %{ year } JBMC Software"
-msgstr ""
+msgstr "© %{ year } JBMC Software"
 
 #: src/js/components/local/user-domains.vue:22
 msgid "<a href=\"#\">(pointers)</a>"
-msgstr ""
+msgstr "<a href=\"#\">(pointers)</a>"
 
 #: src/js/pages/user/password.vue:43
 msgid ""
@@ -272,18 +272,26 @@ msgid ""
 "being allowed to send but is in transition (accept but mark)<br>\n"
 "<strong>Neutral</strong>: The SPF record specifies explicitly that nothing "
 "can be said about validity (accept)<br>"
+msgstr ""
+"<strong> Mislukt </strong>: het SPF-record heeft aangegeven dat de host NIET "
+"mag <br> verzenden (Geweigerd) <br>\n"
+"<strong> SoftFail </strong>: het SPF-record heeft aangegeven dat de host "
+"NIET mag verzenden, maar is in transitie (accepteren maar gemarkeerd) <br>\n"
+"<strong> Neutraal </strong>: in het SPF-record wordt expliciet aangegeven "
+"dat er niets kan worden gezegd over validiteit (accepteren) <br>"
 
 #: src/js/components/local/layouts/shared/user-bar.vue:19
 msgid "<strong>Hello,</strong> %{ username }"
-msgstr ""
+msgstr "<strong>Hallo,</strong> %{ username }"
 
 #: src/js/pages/user/email/accounts/index.vue:150
 msgid "<strong>Last Login: </strong> on %{ date } from %{ ip }"
-msgstr ""
+msgstr "<strong>Laatst ingelogd:</strong> op %{ date } van %{ ip }"
 
 #: src/js/pages/user/email/accounts/index.vue:159
 msgid "<strong>Last Password Change: </strong> on %{ date } from %{ ip }"
 msgstr ""
+"<strong>Laatst wachtwoord gewijzigd op: </strong> om %{ date } van %{ ip }"
 
 #: src/js/pages/admin/settings.vue:401 src/js/pages/admin/settings.vue:503
 #: src/js/pages/admin/settings.vue:697
@@ -354,7 +362,7 @@ msgstr "2 weken"
 
 #: src/js/components/local/date-formats.vue:53
 msgid "24H"
-msgstr ""
+msgstr "24 uur"
 
 #: src/js/pages/user/redirects.vue:54 src/js/pages/user/redirects.vue:93
 #: src/js/pages/user/redirects.vue:96
@@ -451,7 +459,7 @@ msgstr "Toegangsniveau"
 
 #: src/js/components/local/layouts/mobile/access-level-dropdown.vue:11
 msgid "Access Level:"
-msgstr ""
+msgstr "Toegangsniveau:"
 
 #: src/js/pages/user/email/accounts/index.vue:284
 #: src/js/pages/user/ftp-accounts/index.vue:113
@@ -480,7 +488,7 @@ msgstr "Mijn accountinfo"
 
 #: src/js/pages/admin/license.vue:39
 msgid "Account Limit"
-msgstr ""
+msgstr "Accountlimiet"
 
 #: src/js/modules/navigation/admin.js:7 src/js/modules/navigation/reseller.js:7
 #: src/js/modules/navigation/user.js:7
@@ -581,6 +589,8 @@ msgstr "Een ander IP toevoegen"
 msgid ""
 "Add any other server hostname that may deliver or relay mail for this domain"
 msgstr ""
+"Voeg een andere serverhostnaam toe die mails voor dit domein kan bezorgen of "
+"doorsturen"
 
 #: src/js/pages/user/two-step-auth.vue:207
 #: src/js/pages/user/two-step-auth.vue:22
@@ -694,7 +704,7 @@ msgstr ""
 
 #: src/js/pages/user/ssh-keys/edit.vue:68
 msgid "Add Option"
-msgstr ""
+msgstr "Voeg opties toe"
 
 #: src/js/pages/reseller/user-packages/index.vue:12
 msgid "Add Package"
@@ -715,7 +725,7 @@ msgstr "Eenmalige toegangscodes toevoegen"
 
 #: src/js/components/local/ui-api-table/filters-editor.vue:73
 msgid "Add Search Filter"
-msgstr ""
+msgstr "Voeg een zoekfilter toe"
 
 #: src/js/pages/user/_components/add-security-question-dialog.vue:3
 msgid "Add Security Question"
@@ -744,7 +754,7 @@ msgstr "Aan klembord toevoegen"
 
 #: src/js/components/local/filemanager/file-actions.vue:126
 msgid "Add to Clipboard"
-msgstr ""
+msgstr "Toevoegen aan klembord"
 
 #: src/js/pages/admin/ip-manager/_dialogs/add-ip-dialog.vue:51
 msgid "Add to device"
@@ -842,7 +852,7 @@ msgstr "Beheerder wachtwoord"
 
 #: src/js/modules/search/plugins.js:19
 msgid "Admin Plugins"
-msgstr ""
+msgstr "Admin Plugins"
 
 #: src/js/pages/admin/settings.vue:1
 msgid "Admin Settings"
@@ -873,7 +883,7 @@ msgstr "Beheerders"
 #: src/js/pages/reseller/customize-skin/index.vue:39
 #: src/js/pages/reseller/customize-skin/index.vue:46
 msgid "AdSense Configuration"
-msgstr ""
+msgstr "AdSense Configuratie"
 
 #: src/js/pages/user/email/filters.vue:134
 msgid "Adult Filter:"
@@ -889,7 +899,7 @@ msgstr "Geavanceerde functies"
 
 #: src/js/pages/user/dns/mx-records.vue:50
 msgid "Affect Pointers"
-msgstr ""
+msgstr "Beïnvloede Pointers"
 
 #: src/js/pages/admin/settings.vue:310 src/js/pages/admin/settings.vue:319
 msgid "after"
@@ -897,7 +907,7 @@ msgstr "na"
 
 #: src/js/components/local/dns/dmarc-editor.vue:29
 msgid "Aggregate Email (RUA)"
-msgstr ""
+msgstr "Geaggregeerde e-mail (RUA)"
 
 #: src/js/pages/user/domain-pointers.vue:57
 msgid "Alias"
@@ -905,11 +915,11 @@ msgstr "Alias"
 
 #: src/js/components/local/dns/dmarc-editor.vue:65
 msgid "Alignment mode for DKIM"
-msgstr ""
+msgstr "Uitlijnmodus voor DKIM"
 
 #: src/js/components/local/dns/dmarc-editor.vue:76
 msgid "Alignment mode for SPF"
-msgstr ""
+msgstr "Uitlijnmodus voor SPF"
 
 #: src/js/pages/admin/backups/modify.vue:342
 #: src/js/pages/admin/backups/schedule.vue:400
@@ -929,7 +939,7 @@ msgstr "Alle Data"
 
 #: src/js/components/local/create-message-dialog.vue:67
 msgid "All Email Accounts"
-msgstr ""
+msgstr "Alle mailaccounts"
 
 #: src/js/pages/admin/settings.vue:570
 msgid "All Logs"
@@ -970,7 +980,7 @@ msgstr "Alle gebruikers behalve geselecteerd"
 
 #: src/js/pages/user/ssh-keys/edit.vue:91
 msgid "All Users Except Selected Users"
-msgstr ""
+msgstr "Alle niet geselecteerde gebruikers"
 
 #: src/js/pages/admin/backups/_components/crons-table.vue:53
 #: src/js/pages/admin/backups/_components/current-backups-table.vue:39
@@ -1002,6 +1012,8 @@ msgstr ""
 #: src/js/components/local/dns/spf-editor.vue:36
 msgid "Allow any hostname ending in %{ domain } to send email for this domain"
 msgstr ""
+"Sta toe dat elke hostnaam die eindigt op% {domain}, e-mail verzendt namens "
+"dit domein"
 
 #: src/js/pages/user/security-questions.vue:98
 #: src/js/pages/user/two-step-auth.vue:146
@@ -1015,6 +1027,8 @@ msgstr ""
 #: src/js/components/local/dns/spf-editor.vue:26
 msgid "Allow current IP address of the domain to send email for this domain"
 msgstr ""
+"Sta toe dat het huidige IP-adres van het domein e-mail verzendt voor dit "
+"domein"
 
 #: src/js/pages/user/login-keys/create.vue:127
 #: src/js/pages/user/login-keys/modify.vue:90
@@ -1033,12 +1047,16 @@ msgstr "Reseller toestaan ​​om sites te maken met server-IP"
 #: src/js/components/local/dns/spf-editor.vue:16
 msgid "Allow servers listed as MX to send email for this domain"
 msgstr ""
+"Sta toe dat servers die als MX worden vermeld, e-mail verzenden voor dit "
+"domein"
 
 #: src/js/pages/admin/settings.vue:64
 msgid ""
 "Allow the latest version of DirectAdmin to be pushed to this server, as "
 "needed."
 msgstr ""
+"Sta toe dat de nieuwste versie van DirectAdmin naar deze server wordt "
+"gepusht, indien nodig."
 
 #: src/js/pages/admin/settings.vue:107
 msgid "Allow Users with less than"
@@ -1065,7 +1083,7 @@ msgstr "Al op de zwarte lijst"
 
 #: src/js/pages/user/email/vacations/create.vue:25
 msgid "Already exists"
-msgstr ""
+msgstr "Bestaat reeds"
 
 #: src/js/pages/user/email/spamassassin.vue:239
 #: src/js/pages/user/email/spamassassin.vue:322
@@ -1113,7 +1131,7 @@ msgstr "Elke"
 
 #: src/js/components/local/dns/spf-editor.vue:116
 msgid "Any domain that will be searched for a match"
-msgstr ""
+msgstr "Elk domein dat wordt gezocht voor een match"
 
 #: src/js/pages/user/email/spamassassin.vue:173
 msgid "Any e-mail from these addresses will automatically be tagged as spam."
@@ -1130,7 +1148,7 @@ msgstr "Elk tijd"
 
 #: src/js/pages/user/messages/_dialogs/clear-message-system-dialog.vue:20
 msgid "Anything"
-msgstr ""
+msgstr "iets"
 
 #: src/js/pages/reseller/users/bandwidth.vue:160
 #: src/js/pages/reseller/users/bandwidth.vue:200
@@ -1151,7 +1169,7 @@ msgstr "Schijnbare gebruik:"
 
 #: src/js/pages/admin/custom-httpd/customize.vue:176
 msgid "Appears at the end of the virtualHost."
-msgstr ""
+msgstr "Verschijnt aan het einde van de virtualHost."
 
 #: src/js/pages/admin/custom-httpd/customize.vue:158
 #: src/js/pages/admin/custom-httpd/customize.vue:164
@@ -1164,6 +1182,8 @@ msgstr ""
 msgid ""
 "Appears in ALL context{} sections, used for password protected directories."
 msgstr ""
+"Verschijnt in ALLE context {} secties, gebruikt voor met wachtwoord "
+"beveiligde mappen."
 
 #: src/js/pages/admin/custom-httpd/customize.vue:159
 msgid "Appears in ALL location / sections. Use the LOCATION token."
@@ -1171,19 +1191,19 @@ msgstr "Weergegeven in alle locaties / secties. Gebruik de macro LOCATIE."
 
 #: src/js/pages/admin/custom-httpd/customize.vue:173
 msgid "Appears in phpIniOverride{} section."
-msgstr ""
+msgstr "Verschijnt in de sectie phpIniOverride {}."
 
 #: src/js/pages/admin/custom-httpd/customize.vue:174
 msgid "Appears in rewrite{} section."
-msgstr ""
+msgstr "Verschijnt in het rewrite{} sectie."
 
 #: src/js/pages/admin/custom-httpd/customize.vue:171
 msgid "Appears in scripthandler{} section."
-msgstr ""
+msgstr "Verschijnt in de sectie scripthandler{}."
 
 #: src/js/pages/admin/custom-httpd/customize.vue:175
 msgid "Appears in vhssl{} section."
-msgstr ""
+msgstr "Verschijnt in het vhssl{} sectie."
 
 #: src/js/pages/admin/custom-httpd/customize.vue:165
 msgid "Appears just before the <Directory> section."
@@ -1203,7 +1223,7 @@ msgstr "Voeg achteraan toe"
 
 #: src/js/pages/user/ssh-keys/edit.vue:85
 msgid "Apply To"
-msgstr ""
+msgstr "Toepassen op"
 
 #: src/js/pages/user/dashboard/_components/widgets/skins.vue:26
 msgid "Apply to all users"
@@ -1244,7 +1264,7 @@ msgstr "Archiefgrootte"
 
 #: src/js/components/local/filemanager/dialogs/compress-download-dialog.vue:10
 msgid "Archive Type"
-msgstr ""
+msgstr "Archieftype"
 
 #: src/js/pages/admin/plugin-manager.vue:164
 msgid "Are you sure you want to activate “%{ name }” plugin?"
@@ -1338,7 +1358,7 @@ msgstr "Weet u zeker dat u plugin “%{ name }” wilt bijwerken?"
 
 #: src/js/pages/reseller/customize-skin/_components/menu-editor.vue:29
 msgid "As Link"
-msgstr ""
+msgstr "Als Link"
 
 #: src/js/pages/admin/ip-manager/_dialogs/assign-ip-dialog.vue:33
 #: src/js/pages/admin/ip-manager/index.vue:19
@@ -5509,7 +5529,7 @@ msgstr "Laatste telling"
 #: src/js/pages/user/dashboard/_components/widgets/reseller-stats.vue:64
 #: src/js/pages/user/dashboard/_components/widgets/user-stats.vue:105
 msgid "Last time login"
-msgstr "Laatste keer inloggen"
+msgstr "Laatste keer ingelogd"
 
 #: src/js/pages/admin/license.vue:111 src/js/pages/admin/license.vue:172
 #: src/js/pages/user/dashboard/_components/widgets/license.vue:104
@@ -9784,7 +9804,7 @@ msgstr "Geschorste gebruiker"
 #: src/js/pages/admin/users/resellers/index.vue:42
 #: src/js/pages/reseller/users/index.vue:49
 msgid "Suspended"
-msgstr "Geblokkeerd"
+msgstr "Beblokkeerd"
 
 #: src/js/pages/reseller/users/view.vue:51
 msgid "Suspended on:"
@@ -9844,7 +9864,7 @@ msgstr "Systeem Mime Types"
 
 #: src/js/pages/user/disk-usage.vue:15 src/js/pages/user/disk-usage.vue:20
 msgid "System Quotas"
-msgstr "Systeemquota"
+msgstr ""
 
 #: src/js/pages/admin/history.vue:16 src/js/pages/reseller/history.vue:18
 #: src/js/pages/reseller/users/bandwidth.vue:27
@@ -9855,7 +9875,7 @@ msgstr "Tabel"
 
 #: src/js/components/local/app-global-modals/skin-options.vue:80
 msgid "Tables"
-msgstr "Tabellen"
+msgstr ""
 
 #: src/js/pages/user/email/lists/modify.vue:280
 msgid "Taboo Body"
@@ -9974,7 +9994,7 @@ msgstr "De afzender krijgt een foutmelding dat het adres niet bestaat"
 
 #: src/js/components/local/dns/spf-editor.vue:5
 msgid "The SPF record for this domain replaces the current record."
-msgstr "Het SPF record word vervangen door het huidige record."
+msgstr ""
 
 #: src/js/pages/admin/custom-httpd/customize.vue:161
 #: src/js/pages/admin/custom-httpd/customize.vue:167
@@ -9985,7 +10005,7 @@ msgstr "De allerlaatste inzending."
 #: src/js/components/local/app-global-modals/skin-options.vue:37
 #: src/js/pages/reseller/customize-skin/_components/misc-options.vue:68
 msgid "Theme"
-msgstr "Thema"
+msgstr ""
 
 #: src/js/components/local/inputs/input-text-editor.vue:36
 msgid "Theme:"
@@ -10006,7 +10026,7 @@ msgstr "Deze knop verwijdert de door SpamAssassin geleerde gegevens."
 
 #: src/js/pages/admin/ssl/_components/settings-dialog.vue:64
 msgid "This could replace paid EV certificates"
-msgstr "Dit kan betaalde EV-certificaten vervangen"
+msgstr ""
 
 #: src/js/pages/user/email/catch-all.vue:12
 msgid ""
@@ -10972,7 +10992,7 @@ msgstr "Toon Mailinglijst"
 #: src/js/pages/user/dashboard/_components/dashboard-tab.vue:55
 #: src/js/pages/user/dashboard/_components/dashboard-tab.vue:64
 msgid "View more"
-msgstr "Meer info bekijken"
+msgstr ""
 
 #: src/js/pages/user/protected-directories/view.vue:1
 msgid "View Protected Directory"
@@ -10992,7 +11012,7 @@ msgstr "Toon Reseller"
 
 #: src/js/pages/admin/users/resellers/view.vue:11
 msgid "View Reseller: %{ user }"
-msgstr "Bekijk Reseller: %{ user }"
+msgstr ""
 
 #: src/js/pages/user/stats/domain-statistics.vue:1
 msgid "View Statistic Reports"
@@ -11338,7 +11358,7 @@ msgstr "format:date"
 
 # Text Direction
 msgid "$direction"
-msgstr ""
+msgstr "$direction"
 
 #~ msgid "{{ plugin.name }}"
 #~ msgstr "{{ plugin.name }}"
