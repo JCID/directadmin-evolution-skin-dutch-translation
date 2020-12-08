@@ -12,15 +12,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.4\n"
 
-#: src/js/login/Login.vue:31
+#: src/js/login/Login.vue:51
 msgid "← Back to the login page"
 msgstr "← Terug naar de loginpagina"
 
-#: src/js/login/components/two-step-auth.vue:29
+#: src/js/login/components/two-step-auth.vue:35
 msgid "Authenticate"
 msgstr "Authoriseren"
 
-#: src/js/login/Login.vue:22
+#: src/js/login/Login.vue:42
 msgid "Click here"
 msgstr ""
 
@@ -40,15 +40,16 @@ msgstr ""
 "Vul uw gebruikersnaam in en een bevestigingslink zal worden verstuurd naar "
 "uw e-mailadres."
 
-#: src/js/login/Login.vue:17
+#: src/js/login/Login.vue:36
 msgid "Forgot Password?"
 msgstr "Wachtwoord vergeten?"
 
 #: src/js/login/components/login-datetime.vue:12
+#, fuzzy
 msgid "format:datetime"
-msgstr ""
+msgstr "format:datetime"
 
-#: src/js/login/components/standard-auth.vue:27
+#: src/js/login/components/standard-auth.vue:28
 msgid "Hmm, login details do not seem to be correct. Please try again."
 msgstr "Hmm, logingegevens lijken niet correct te zijn. Probeer het opnieuw."
 
@@ -86,7 +87,7 @@ msgstr "Nieuw wachtwoord aanvragen"
 msgid "Send me a Link"
 msgstr "Stuur mij een link"
 
-#: src/js/login/components/standard-auth.vue:39
+#: src/js/login/components/standard-auth.vue:46
 msgid "Sign in to Account"
 msgstr "Aanmelden bij account"
 
@@ -97,6 +98,10 @@ msgstr "Start DirectAdmin"
 #: src/js/login/components/security-question-auth.vue:13
 msgid "Submit Answer"
 msgstr "Verstuur antwoord"
+
+#: src/js/login/Login.vue:12
+msgid "This is a Trial License of DirectAdmin"
+msgstr ""
 
 #: src/js/login/components/two-step-auth.vue:16
 msgid "Trust this device for %{ days } days"

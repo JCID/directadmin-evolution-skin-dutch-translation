@@ -8,16 +8,16 @@ Copyright |. De vertaling is in samenwerking met DirectAdmin uitgevoerd. Leden m
 |E-mail|[info@snelwebcenter.nl](mailto:info@snelwebcenter.nl)|
 |Versie|2.0 (vertaling) (27-01-2020)|
 
-# Installatie van versie `v2.0.1`
+# Installatie van versie `v2.0.2`
 
 ```bash
-curl -o /usr/local/directadmin/data/skins/evolution/lang/nl.po https://raw.githubusercontent.com/JCID/directadmin-evolution-skin-dutch-translation/v2.0.1/nl.po
+curl -o /usr/local/directadmin/data/skins/evolution/lang/nl.po https://raw.githubusercontent.com/JCID/directadmin-evolution-skin-dutch-translation/v2.0.2/nl.po
 chown diradmin:diradmin /usr/local/directadmin/data/skins/evolution/lang/nl.po
 chmod 0755 /usr/local/directadmin/data/skins/evolution/lang/nl.po
 ```
 
 ```bash
-curl -o /usr/local/directadmin/data/skins/evolution/lang/login-nl.po https://raw.githubusercontent.com/JCID/directadmin-evolution-skin-dutch-translation/v2.0.1/login-nl.po
+curl -o /usr/local/directadmin/data/skins/evolution/lang/login-nl.po https://raw.githubusercontent.com/JCID/directadmin-evolution-skin-dutch-translation/v2.0.2/login-nl.po
 chown diradmin:diradmin /usr/local/directadmin/data/skins/evolution/lang/login-nl.po
 chmod 0755 /usr/local/directadmin/data/skins/evolution/lang/login-nl.po
 ```
@@ -29,11 +29,11 @@ Download [PoEdit](https://poedit.net/download). PoEdit heeft een optie om het PO
 Het POT-bestand vind je onder de directory `cd /usr/local/directadmin/data/skins/evolution/lang/` met daarin `dictionary.pot`, `login-dictionary.pot` en `vars.pot`.
 
 ```bash
+scp shared02.prod.jcid.nl:/usr/local/directadmin/data/skins/evolution/lang/dictionary.pot dictionary.pot
 open nl.po -a poedit
-scp effusion.prod.jcid.nl:/usr/local/directadmin/data/skins/evolution/lang/dictionary.pot ~/jcid/repositories/jcid/directadmin-evolution-skin-dutch-translation/dictionary.pot
 ```
 
 ```bash
-open login-nl.po
-scp effusion.prod.jcid.nl:/usr/local/directadmin/data/skins/evolution/lang/login-dictionary.pot ~/jcid/repositories/jcid/directadmin-evolution-skin-dutch-translation/login-dictionary.pot
+scp shared02.prod.jcid.nl:/usr/local/directadmin/data/skins/evolution/lang/login-dictionary.pot login-dictionary.pot
+open login-nl.po -a poedit
 ```
