@@ -1,39 +1,40 @@
-# DirectAdmin - Evolution skin - Dutch translation
+# DEPRECATED
 
-Copyright |. De vertaling is in samenwerking met DirectAdmin uitgevoerd. Leden met een DirectAdmin licentie kunnen vrijblijvend gebruik maken van de vertaling. Bug of fouten melden kan altijd naar de auteur.
+[![No Maintenance Intended](https://unmaintained.tech/badge.svg)](https://unmaintained.tech)
 
-|||
-|-----|-----|
-|Auteur|Snelwebcenter|
-|E-mail|[info@snelwebcenter.nl](mailto:info@snelwebcenter.nl)|
-|Versie|2.0 (vertaling) (27-01-2020)|
+Deze Github repository wordt niet langer door JCID bijgewerkt. Overweeg in plaats daarvan het [DirectAdmin translation platform][directadmin-translation-evolution-skin] te gebruiken.
 
-# Installatie van versie `v2.0.2`
+# Download vanaf [DirectAdmin translation platform][directadmin-translation-evolution-skin]
 
-```bash
-curl -o /usr/local/directadmin/data/skins/evolution/lang/nl.po https://raw.githubusercontent.com/JCID/directadmin-evolution-skin-dutch-translation/v2.0.2/nl.po
-chown diradmin:diradmin /usr/local/directadmin/data/skins/evolution/lang/nl.po
-chmod 0755 /usr/local/directadmin/data/skins/evolution/lang/nl.po
-```
+Evolution skin (`nl.po`)
 
-```bash
-curl -o /usr/local/directadmin/data/skins/evolution/lang/login-nl.po https://raw.githubusercontent.com/JCID/directadmin-evolution-skin-dutch-translation/v2.0.2/login-nl.po
-chown diradmin:diradmin /usr/local/directadmin/data/skins/evolution/lang/login-nl.po
-chmod 0755 /usr/local/directadmin/data/skins/evolution/lang/login-nl.po
-```
+    curl -o /usr/local/directadmin/data/skins/evolution/lang/nl.po https://translate.directadmin.com/download/directadmin/evolution-skin/nl/?format=po
 
-# Actualiseren ten opzichte van DirectAdmin
+Evolution login page (`login-nl.po`)
 
-Download [PoEdit](https://poedit.net/download). PoEdit heeft een optie om het PO-bestand bij te werken vanuit een bestaand POT-bestand. Ga vanuit het menu naar `Catalogus` -> `Bijwerken vanuit POT-bestand`.
+    curl -o /usr/local/directadmin/data/skins/evolution/lang/login-nl.po https://translate.directadmin.com/download/directadmin/evolution-login/nl/?format=po
 
-Het POT-bestand vind je onder de directory `cd /usr/local/directadmin/data/skins/evolution/lang/` met daarin `dictionary.pot`, `login-dictionary.pot` en `vars.pot`.
+# Download vanaf [Github][github-evolution-skin] *versie `v2.0.2`*
 
-```bash
-scp shared02.prod.jcid.nl:/usr/local/directadmin/data/skins/evolution/lang/dictionary.pot dictionary.pot
-open nl.po -a poedit
-```
+Evolution skin (`nl.po`)
 
-```bash
-scp shared02.prod.jcid.nl:/usr/local/directadmin/data/skins/evolution/lang/login-dictionary.pot login-dictionary.pot
-open login-nl.po -a poedit
-```
+    curl -o /usr/local/directadmin/data/skins/evolution/lang/nl.po https://raw.githubusercontent.com/JCID/directadmin-evolution-skin-dutch-translation/v2.0.2/nl.po
+    
+Evolution login page (`login-nl.po`)
+
+    curl -o /usr/local/directadmin/data/skins/evolution/lang/login-nl.po https://raw.githubusercontent.com/JCID/directadmin-evolution-skin-dutch-translation/v2.0.2/login-nl.po
+
+# Rechten herstellen
+
+Evolution skin (`nl.po`)
+
+    chown diradmin:diradmin /usr/local/directadmin/data/skins/evolution/lang/login-nl.po
+    chmod 0755 /usr/local/directadmin/data/skins/evolution/lang/login-nl.po
+
+Evolution login page (`login-nl.po`)
+
+    chown diradmin:diradmin /usr/local/directadmin/data/skins/evolution/lang/login-nl.po
+    chmod 0755 /usr/local/directadmin/data/skins/evolution/lang/login-nl.po
+
+[directadmin-translation-evolution-skin]: https://translate.directadmin.com/projects/directadmin/evolution-skin/nl/
+[github-evolution-skin]: https://github.com/JCID/directadmin-evolution-skin-dutch-translation/releases
